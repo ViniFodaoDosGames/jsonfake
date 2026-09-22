@@ -1,1 +1,52 @@
-
+{
+  "Usuarios": [
+  {"id": 1, "nome": "usuario-01"; "cpf": "11111111101"; "celular": "32999999901", "senha": "hash_01"},
+  {"id": 2, "nome": "usuario-02"; "cpf": "11111111102"; "celular": "32999999902", "senha": "hash_02"},
+  {"id": 3, "nome": "usuario-03"; "cpf": "11111111103"; "celular": "32999999903", "senha": "hash_03"},
+  {"id": 4, "nome": "usuario-04"; "cpf": "11111111104"; "celular": "32999999904", "senha": "hash_04"},
+  {"id": 5, "nome": "usuario-05"; "cpf": "11111111105"; "celular": "32999999905", "senha": "hash_05"}
+  {"id": 6, "nome": "usuario-06"; "cpf": "11111111106"; "celular": "32999999906", "senha": "hash_06"}
+  ],
+  "Funcionarios": [
+    {"id": 1, "idUsuario": 1},
+    {"id": 2, "idUsuario": 2}
+  ],
+  "Clientes": [
+    {"id": 1, "dataAceiteTermos": "AAAA-MM-DD HH:MM:SS", ,"idUsuario": 3},
+    {"id": 2, "dataAceiteTermos": "AAAA-MM-DD HH:MM:SS", ,"idUsuario": 4}
+  ],
+  "Adiministradores": [
+    {"id": 1, "idUsuario": 5},
+    {"id": 2, "idUsuario": 6}
+  ],
+  "Cores": [
+    {"id": 1, "nome": "preto", "ativo": true},
+    {"id": 2, "nome": "cinza", "ativo": false},
+    {"id": 3, "nome": "branco", "ativo": true},
+    {"id": 4, "nome": "azul", "ativo": false}
+  ],
+  "CategoriaVeiculos": [
+    {"id": 1, "nome": "A", "ativo": true},
+    {"id": 2, "nome": "B", "ativo": false},
+    {"id": 3, "nome": "C", "ativo": true},
+    {"id": 4, "nome": "D", "ativo": false}
+  ],
+  "Marcas": [
+    {"id": 1, "nome": "BMW", "ativo": true},
+    {"id": 2, "nome": "NISSAN", "ativo": false},
+    {"id": 3, "nome": "FORD", "ativo": true},
+    {"id": 4, "nome": "IVECO", "ativo": false}
+  ], 
+  "Modelos": [
+    {"id": 1, "nome": "modelo-01", "ativo": true, "idMarca": 1},
+    {"id": 2, "nome": "modelo-02", "ativo": false, "idMarca": 2},
+    {"id": 3, "nome": "modelo-03", "ativo": true, "idMarca": 3},
+    {"id": 4, "nome": "modelo-04", "ativo": false, "idMarca": 4}
+  ],
+  "Veiculos": [
+    {"id": 1, "placa": "xxxxx01", "ativo": true, "idModelo": 1, "idCategoriaVeiculo": 1, "idCor": 1},
+    {"id": 2, "placa": "xxxxx02", "ativo": true, "idModelo": 2, "idCategoriaVeiculo": 2, "idCor": 2},
+    {"id": 3, "placa": "xxxxx03", "ativo": false, "idModelo": 3, "idCategoriaVeiculo": 3, "idCor": 3},
+    {"id": 4, "placa": "xxxxx04", "ativo": false, "idModelo": 4, "idCategoriaVeiculo": 4, "idCor": 4},
+  ],
+}
