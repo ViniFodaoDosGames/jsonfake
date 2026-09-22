@@ -12,8 +12,8 @@
     {"id": 2, "idUsuario": 2}
   ],
   "Clientes": [
-    {"id": 1, "dataAceiteTermos": "AAAA-MM-DD HH:MM:SS", ,"idUsuario": 3},
-    {"id": 2, "dataAceiteTermos": "AAAA-MM-DD HH:MM:SS", ,"idUsuario": 4}
+    {"id": 1, "dataAceiteTermos": "AAAA-MM-DD HH:MM:SS", "idUsuario": 3},
+    {"id": 2, "dataAceiteTermos": "AAAA-MM-DD HH:MM:SS","idUsuario": 4}
   ],
   "Adiministradores": [
     {"id": 1, "idUsuario": 5},
